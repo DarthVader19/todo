@@ -70,7 +70,7 @@ const Table =({data,setTodos,handleDelete})=>{
 
                             <td>
                             <div>
-                                <a className='m-2.5 underline cursor-pointer hover:text-red-400' onClick={()=>handleDelete(index,row)} >delete</a>
+                                <span className='m-2.5 underline cursor-pointer hover:text-red-400' onClick={()=>handleDelete(index,row)} >delete</span>
                             </div>
                              </td>
                             </tr>
