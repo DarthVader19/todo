@@ -8,7 +8,7 @@ const Todo = () => {
 
   const onDel = (i, row) => {
     setTodos((prev) => {
-     return  prev.filter(t=>t.task!=row.task)
+     return  prev.filter(t=>t.task!==row.task)
     });
     // console.log(todos, row);
   };
